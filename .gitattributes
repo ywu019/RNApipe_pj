@@ -1,2 +1,0 @@
-*.gtf filter=lfs diff=lfs merge=lfs -text
-At10* filter=lfs diff=lfs merge=lfs -text
