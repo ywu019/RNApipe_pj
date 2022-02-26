@@ -1,0 +1,278 @@
+[2022-02-26 00:25:31,883] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/zpzhou/software/conda3/envs/RNApipe/lib/python3.9/site-packages/multiqc_config.yaml
+[2022-02-26 00:25:31,883] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/zpzhou/.multiqc_config.yaml
+[2022-02-26 00:25:31,883] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2022-02-26 00:25:31,883] multiqc                                            [DEBUG  ]  Command used: /home/zpzhou/software/conda3/envs/RNApipe/bin/multiqc project/Nc_data/output/align/hisat2/74A_1_BAMqc project/Nc_data/output/align/hisat2/74A_2_BAMqc project/Nc_data/output/align/hisat2/74A_3_BAMqc project/Nc_data/output/align/hisat2/mus52_1_BAMqc project/Nc_data/output/align/hisat2/mus52_2_BAMqc project/Nc_data/output/align/hisat2/mus52_3_BAMqc project/Nc_data/output/quantify/featureCounts/genome.tsv.summary --filename project/Nc_data/output/visualize/report/report_align_count.html
+[2022-02-26 00:25:31,904] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check: <urlopen error [Errno -3] Temporary failure in name resolution>
+[2022-02-26 00:25:31,904] multiqc                                            [INFO   ]  This is MultiQC v1.10.1
+[2022-02-26 00:25:31,904] multiqc                                            [DEBUG  ]  Command     : /home/zpzhou/software/conda3/envs/RNApipe/bin/multiqc project/Nc_data/output/align/hisat2/74A_1_BAMqc project/Nc_data/output/align/hisat2/74A_2_BAMqc project/Nc_data/output/align/hisat2/74A_3_BAMqc project/Nc_data/output/align/hisat2/mus52_1_BAMqc project/Nc_data/output/align/hisat2/mus52_2_BAMqc project/Nc_data/output/align/hisat2/mus52_3_BAMqc project/Nc_data/output/quantify/featureCounts/genome.tsv.summary --filename project/Nc_data/output/visualize/report/report_align_count.html
+[2022-02-26 00:25:31,904] multiqc                                            [DEBUG  ]  Working dir : /home/zpzhou/wuyue/snakemake/RNApipe
+[2022-02-26 00:25:31,904] multiqc                                            [INFO   ]  Template    : default
+[2022-02-26 00:25:31,904] multiqc                                            [DEBUG  ]  Running Python 3.9.5 (default, Jun  4 2021, 12:28:51)  [GCC 7.5.0]
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/74A_1_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/74A_2_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/74A_3_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/mus52_1_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/mus52_2_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/align/hisat2/mus52_3_BAMqc
+[2022-02-26 00:25:31,905] multiqc                                            [INFO   ]  Searching   : /home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/quantify/featureCounts/genome.tsv.summary
+[2022-02-26 00:25:31,906] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ngsderive, purple, conpair, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, sentieon, prokka, qc3C, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, interop, ivar, flash, seqyclean, optitype
+[2022-02-26 00:25:31,906] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpexa3byhy
+[2022-02-26 00:25:32,702] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:32,779] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:32,784] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:32,813] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:32,818] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:32,853] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:32,857] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:32,883] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:32,887] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:32,918] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:32,955] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:32,959] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:32,986] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:32,991] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:33,011] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:33,016] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:33,049] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:33,054] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:33,098] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:33,102] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:33,126] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:33,164] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:33,169] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:33,213] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:33,218] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:33,235] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:33,281] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:33,299] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:33,323] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:33,327] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:33,360] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:33,364] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:33,388] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:33,393] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:33,422] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:33,458] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:33,463] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:33,490] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:33,494] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:33,512] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:33,517] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:33,547] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:33,551] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:33,593] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:33,597] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:33,619] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:33,656] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:33,661] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:33,705] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:33,710] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:33,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:33,770] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:33,774] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:33,798] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:33,802] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:33,834] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:33,838] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:33,863] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:33,867] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:33,900] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:33,938] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:33,943] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:33,972] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:33,976] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:33,997] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,002] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,036] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:34,040] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:34,084] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:34,088] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:34,111] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:34,147] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:34,151] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:34,197] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:34,201] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:34,219] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:34,264] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:34,268] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:34,293] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:34,297] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:34,329] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:34,333] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:34,357] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:34,361] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:34,390] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:34,426] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:34,430] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:34,456] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:34,460] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:34,479] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,483] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,514] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:34,518] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:34,560] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:34,565] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:34,586] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:34,622] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:34,626] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:34,668] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:34,672] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:34,688] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:34,734] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:34,738] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:34,764] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:34,768] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:34,804] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:34,808] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:34,833] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:34,838] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:34,868] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:34,904] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:34,909] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:34,934] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:34,938] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:34,957] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,961] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:34,991] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:34,996] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:35,041] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:35,045] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:35,072] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:35,109] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:35,114] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:35,159] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:35,164] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:35,183] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2022-02-26 00:25:35,230] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:35,234] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: agogo.css
+[2022-02-26 00:25:35,260] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:35,264] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: basic.css
+[2022-02-26 00:25:35,297] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:35,302] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: doctools.js
+[2022-02-26 00:25:35,325] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:35,329] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: jquery.js
+[2022-02-26 00:25:35,359] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: pygments.css
+[2022-02-26 00:25:35,395] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:35,399] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: searchtools.js
+[2022-02-26 00:25:35,426] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:35,431] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: underscore.js
+[2022-02-26 00:25:35,450] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:35,454] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: websupport.js
+[2022-02-26 00:25:35,486] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:35,490] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: coverage_across_reference.txt
+[2022-02-26 00:25:35,532] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:35,536] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_nucleotide_content.txt
+[2022-02-26 00:25:35,558] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapped_reads_clipping_profile.txt
+[2022-02-26 00:25:35,593] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:35,597] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: mapping_quality_across_reference.txt
+[2022-02-26 00:25:35,639] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:35,643] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: insert_size_across_reference.txt
+[2022-02-26 00:25:39,558] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.3.4
+[2022-02-26 00:25:39,577] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.3.4
+[2022-02-26 00:25:39,605] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2022-02-26 00:25:39,642] multiqc                                            [DEBUG  ]  No samples found: ngsderive
+[2022-02-26 00:25:39,682] multiqc                                            [DEBUG  ]  No samples found: purple
+[2022-02-26 00:25:39,719] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2022-02-26 00:25:39,756] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2022-02-26 00:25:39,788] multiqc                                            [DEBUG  ]  No samples found: somalier
+[2022-02-26 00:25:39,831] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2022-02-26 00:25:39,909] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2022-02-26 00:25:39,967] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2022-02-26 00:25:40,232] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2022-02-26 00:25:40,472] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 6 BamQC reports
+[2022-02-26 00:25:40,506] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2022-02-26 00:25:40,547] multiqc                                            [DEBUG  ]  No samples found: quast
+[2022-02-26 00:25:40,580] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2022-02-26 00:25:40,612] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2022-02-26 00:25:40,641] multiqc                                            [DEBUG  ]  No samples found: rockhopper
+[2022-02-26 00:25:40,685] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2022-02-26 00:25:40,828] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2022-02-26 00:25:40,856] multiqc                                            [DEBUG  ]  No samples found: busco
+[2022-02-26 00:25:40,893] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2022-02-26 00:25:40,928] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2022-02-26 00:25:40,976] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2022-02-26 00:25:41,173] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2022-02-26 00:25:41,205] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2022-02-26 00:25:41,238] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2022-02-26 00:25:41,264] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2022-02-26 00:25:41,283] multiqc                                            [DEBUG  ]  No samples found: happy
+[2022-02-26 00:25:41,332] multiqc                                            [DEBUG  ]  No samples found: mirtop
+[2022-02-26 00:25:41,379] multiqc                                            [DEBUG  ]  No samples found: homer
+[2022-02-26 00:25:41,405] multiqc                                            [DEBUG  ]  No samples found: hops
+[2022-02-26 00:25:41,418] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2022-02-26 00:25:41,456] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2022-02-26 00:25:41,499] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2022-02-26 00:25:41,559] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2022-02-26 00:25:41,595] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2022-02-26 00:25:41,625] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2022-02-26 00:25:41,652] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 6 reports
+[2022-02-26 00:25:41,795] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2022-02-26 00:25:41,930] multiqc                                            [DEBUG  ]  No samples found: dragen
+[2022-02-26 00:25:41,949] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2022-02-26 00:25:41,968] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2022-02-26 00:25:42,261] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2022-02-26 00:25:42,319] multiqc                                            [DEBUG  ]  No samples found: jcvi
+[2022-02-26 00:25:42,368] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2022-02-26 00:25:42,374] multiqc                                            [DEBUG  ]  No samples found: picard
+[2022-02-26 00:25:42,425] multiqc                                            [DEBUG  ]  No samples found: sentieon
+[2022-02-26 00:25:42,436] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2022-02-26 00:25:42,475] multiqc                                            [DEBUG  ]  No samples found: qc3C
+[2022-02-26 00:25:42,500] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2022-02-26 00:25:42,579] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2022-02-26 00:25:42,609] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2022-02-26 00:25:42,628] multiqc                                            [DEBUG  ]  No samples found: eigenstratdatabasetools
+[2022-02-26 00:25:42,643] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2022-02-26 00:25:42,670] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2022-02-26 00:25:42,714] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2022-02-26 00:25:42,735] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2022-02-26 00:25:42,774] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2022-02-26 00:25:42,827] multiqc                                            [DEBUG  ]  No samples found: varscan2
+[2022-02-26 00:25:43,034] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2022-02-26 00:25:43,084] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2022-02-26 00:25:43,113] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2022-02-26 00:25:43,137] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2022-02-26 00:25:43,184] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2022-02-26 00:25:43,222] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2022-02-26 00:25:43,238] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2022-02-26 00:25:43,258] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2022-02-26 00:25:43,283] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2022-02-26 00:25:43,320] multiqc                                            [DEBUG  ]  No samples found: star
+[2022-02-26 00:25:43,340] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2022-02-26 00:25:43,378] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2022-02-26 00:25:43,415] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2022-02-26 00:25:43,446] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2022-02-26 00:25:43,471] multiqc                                            [DEBUG  ]  No samples found: snpsplit
+[2022-02-26 00:25:43,499] multiqc                                            [DEBUG  ]  No samples found: kat
+[2022-02-26 00:25:43,536] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2022-02-26 00:25:43,560] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2022-02-26 00:25:43,597] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2022-02-26 00:25:43,628] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2022-02-26 00:25:43,638] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2022-02-26 00:25:43,669] multiqc                                            [DEBUG  ]  No samples found: kaiju
+[2022-02-26 00:25:43,694] multiqc                                            [DEBUG  ]  No samples found: kraken
+[2022-02-26 00:25:43,729] multiqc                                            [DEBUG  ]  No samples found: malt
+[2022-02-26 00:25:43,774] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2022-02-26 00:25:43,828] multiqc                                            [DEBUG  ]  No samples found: sickle
+[2022-02-26 00:25:43,861] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2022-02-26 00:25:43,882] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2022-02-26 00:25:43,898] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2022-02-26 00:25:43,936] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2022-02-26 00:25:44,002] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2022-02-26 00:25:44,041] multiqc                                            [DEBUG  ]  No samples found: fastp
+[2022-02-26 00:25:44,066] multiqc                                            [DEBUG  ]  No samples found: fastqc
+[2022-02-26 00:25:44,102] multiqc                                            [DEBUG  ]  No samples found: pychopper
+[2022-02-26 00:25:44,136] multiqc                                            [DEBUG  ]  No samples found: pycoqc
+[2022-02-26 00:25:44,167] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2022-02-26 00:25:44,204] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
+[2022-02-26 00:25:44,216] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2022-02-26 00:25:44,244] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2022-02-26 00:25:44,284] multiqc                                            [DEBUG  ]  No samples found: interop
+[2022-02-26 00:25:44,330] multiqc                                            [DEBUG  ]  No samples found: ivar
+[2022-02-26 00:25:44,353] multiqc                                            [DEBUG  ]  No samples found: flash
+[2022-02-26 00:25:44,371] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2022-02-26 00:25:44,394] multiqc                                            [DEBUG  ]  No samples found: optitype
+[2022-02-26 00:25:44,438] multiqc                                            [INFO   ]  Compressing plot data
+[2022-02-26 00:25:44,944] multiqc                                            [INFO   ]  Report      : project/Nc_data/output/visualize/report/report_align_count.html
+[2022-02-26 00:25:44,944] multiqc                                            [INFO   ]  Data        : project/Nc_data/output/visualize/report/report_align_count_data
+[2022-02-26 00:25:44,944] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpexa3byhy/multiqc_data' to '/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/visualize/report/report_align_count_data'
+[2022-02-26 00:25:48,130] multiqc                                            [INFO   ]  MultiQC complete

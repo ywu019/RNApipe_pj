@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	74A_2_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_2_R2_trimmed_fastqc.zip
+FastQC	all_sections	74A_2_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_2_R1_trimmed_fastqc.zip
+FastQC	all_sections	74A_3_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_3_R2_trimmed_fastqc.zip
+FastQC	all_sections	74A_3_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_3_R1_trimmed_fastqc.zip
+FastQC	all_sections	mus52_2_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_2_R2_trimmed_fastqc.zip
+FastQC	all_sections	mus52_2_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_2_R1_trimmed_fastqc.zip
+FastQC	all_sections	74A_1_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_1_R1_trimmed_fastqc.zip
+FastQC	all_sections	74A_1_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/74A_1_R2_trimmed_fastqc.zip
+FastQC	all_sections	mus52_3_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_3_R1_trimmed_fastqc.zip
+FastQC	all_sections	mus52_3_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_3_R2_trimmed_fastqc.zip
+FastQC	all_sections	mus52_1_R2	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_1_R2_trimmed_fastqc.zip
+FastQC	all_sections	mus52_1_R1	/home/zpzhou/wuyue/snakemake/RNApipe/project/Nc_data/output/trim/fastp/fastqc_after_trimming/mus52_1_R1_trimmed_fastqc.zip

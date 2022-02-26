@@ -1,0 +1,7 @@
+Sample	bam_file	total_reads	mapped_reads	mapped_bases	sequenced_bases	mean_insert_size	median_insert_size	mean_mapping_quality	general_error_rate	mean_coverage	percentage_aligned
+Fli1KO_1.sort	project/Mus_data/output/align/hisat2/Fli1KO_1.sort.bam	13627874.0	12300342.0	8929990035.0	859698608.0	1788.3809	119.0	5.3784	0.0008	3.2732	90.25870066013232
+Fli1KO_2.sort	project/Mus_data/output/align/hisat2/Fli1KO_2.sort.bam	21952738.0	19744491.0	14342030756.0	1373839812.0	1677.7025	115.0	5.8702	0.0008	5.2569	89.94090395466844
+Fli1KO_3.sort	project/Mus_data/output/align/hisat2/Fli1KO_3.sort.bam	9604900.0	8497761.0	5593612733.0	574768546.0	1550.2012	102.0	5.8394	0.0009	2.0503	88.4731855615363
+WT_1.sort	project/Mus_data/output/align/hisat2/WT_1.sort.bam	11422126.0	10197140.0	7128436390.0	699239750.0	1811.7022	111.0	5.6978	0.0008	2.6129	89.2753240508816
+WT_2.sort	project/Mus_data/output/align/hisat2/WT_2.sort.bam	18988056.0	17136929.0	13317092374.0	1202828780.0	1992.7341	116.0	5.1255	0.0008	4.8812	90.25109784803668
+WT_3.sort	project/Mus_data/output/align/hisat2/WT_3.sort.bam	14207750.0	12615725.0	9001383717.0	849588447.0	1609.3149	101.0	5.2362	0.0008	3.2994	88.79467192201439

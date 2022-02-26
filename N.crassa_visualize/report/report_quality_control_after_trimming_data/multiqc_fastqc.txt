@@ -1,0 +1,13 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+74A_1_R1	74A_1_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	21998523.0	0.0	20-101	56.0	32.87047394899231	99.62200753205113	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+74A_1_R2	74A_1_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	21998523.0	0.0	20-101	56.0	35.14816964586046	99.6455548402045	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass
+74A_2_R1	74A_2_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12293800.0	0.0	20-101	56.0	33.523760709584664	99.64289934763865	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+74A_2_R2	74A_2_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	12293800.0	0.0	20-101	56.0	36.0202584972195	99.66639346662545	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass
+74A_3_R1	74A_3_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14537376.0	0.0	20-101	56.0	31.988333931361325	99.59075874490692	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+74A_3_R2	74A_3_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	14537376.0	0.0	20-101	56.0	34.42515718978165	99.62822369043766	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass
+mus52_1_R1	mus52_1_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	38659170.0	0.0	20-101	57.0	23.009243922685542	99.61597023422904	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+mus52_1_R2	mus52_1_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	38659170.0	0.0	20-101	57.0	25.519981530017716	99.6401395580919	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass
+mus52_2_R1	mus52_2_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16542894.0	0.0	20-101	57.0	30.860560863378577	99.64280083037467	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+mus52_2_R2	mus52_2_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	16542894.0	0.0	20-101	57.0	33.310753848379164	99.66429223326946	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass
+mus52_3_R1	mus52_3_R1_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	24402640.0	0.0	20-101	57.0	27.800030239779268	99.64167122901456	pass	pass	pass	fail	pass	pass	warn	fail	pass	pass
+mus52_3_R2	mus52_3_R2_trimmed.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	24402640.0	0.0	20-101	57.0	30.26347393379687	99.66331626414191	pass	fail	pass	fail	pass	fail	warn	fail	pass	pass

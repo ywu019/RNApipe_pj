@@ -1,0 +1,7 @@
+Sample	Total	Assigned	Unassigned_Unmapped	Unassigned_Read_Type	Unassigned_Singleton	Unassigned_MappingQuality	Unassigned_Chimera	Unassigned_FragmentLength	Unassigned_Duplicate	Unassigned_MultiMapping	Unassigned_Secondary	Unassigned_NonSplit	Unassigned_NoFeatures	Unassigned_Overlapping_Length	Unassigned_Ambiguity	percent_assigned
+Fli1KO_1.sort	8148818	5256824	384375	0	0	0	0	0	0	1980917	0	0	391864	0	134838	64.51026394257426
+Fli1KO_2.sort	13211625	8129178	655541	0	0	0	0	0	0	3319476	0	0	904168	0	203262	61.530493031705035
+Fli1KO_3.sort	5842490	3492526	346997	0	0	0	0	0	0	1540395	0	0	368489	0	94083	59.77803984260136
+WT_1.sort	7071158	4215142	372748	0	0	0	0	0	0	2009142	0	0	362180	0	111946	59.61034953539435
+WT_2.sort	11526618	7160376	540923	0	0	0	0	0	0	3000993	0	0	630870	0	193456	62.12035481699836
+WT_3.sort	8676750	5317607	492454	0	0	0	0	0	0	2315095	0	0	402966	0	148628	61.285700291007586
