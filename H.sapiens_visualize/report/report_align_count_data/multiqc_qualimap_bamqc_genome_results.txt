@@ -1,0 +1,7 @@
+Sample	bam_file	total_reads	mapped_reads	mapped_bases	sequenced_bases	mean_insert_size	median_insert_size	mean_mapping_quality	general_error_rate	mean_coverage	percentage_aligned
+ESR1_Y537C_1.sort	project/human_data/output/align/hisat2/ESR1_Y537C_1.sort.bam	110365294.0	106662077.0	119476617128.0	8029835425.0	12771.5182	150.0	6.3261	0.0001	36.5139	96.64458194620494
+ESR1_Y537C_2.sort	project/human_data/output/align/hisat2/ESR1_Y537C_2.sort.bam	109264754.0	105460873.0	114825263097.0	7936268277.0	9948.0215	149.0	6.9762	0.0001	35.0923	96.51865687630615
+ESR1_Y537C_3.sort	project/human_data/output/align/hisat2/ESR1_Y537C_3.sort.bam	107678974.0	103779318.0	109413556173.0	7814941962.0	11479.4725	154.0	6.1756	0.0001	33.4384	96.37844246175675
+WT_1.sort	project/human_data/output/align/hisat2/WT_1.sort.bam	109154884.0	100018126.0	105624981085.0	7532298690.0	13530.085	154.0	6.3731	0.0001	32.2806	91.62954724041482
+WT_2.sort	project/human_data/output/align/hisat2/WT_2.sort.bam	107085194.0	97003565.0	103804574806.0	7295955516.0	9638.2648	148.0	6.6736	0.0001	31.7242	90.58541276957484
+WT_3.sort	project/human_data/output/align/hisat2/WT_3.sort.bam	109690836.0	96906075.0	99222246156.0	7290556600.0	9550.0712	149.0	6.815	0.0001	30.3238	88.34473191543549

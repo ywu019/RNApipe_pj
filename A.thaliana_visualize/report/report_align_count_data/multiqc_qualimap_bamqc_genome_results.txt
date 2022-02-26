@@ -1,0 +1,7 @@
+Sample	bam_file	total_reads	mapped_reads	mapped_bases	sequenced_bases	mean_insert_size	median_insert_size	mean_mapping_quality	general_error_rate	mean_coverage	percentage_aligned
+root_1.sort	project/At_data/output/align/hisat2/root_1.sort.bam	41522759.0	36909009.0	18438084139.0	1222033558.0	0.0	0.0	23.8249	0.0001	154.0762	88.88862370633898
+root_2.sort	project/At_data/output/align/hisat2/root_2.sort.bam	51386345.0	45792828.0	17059956307.0	1500719582.0	0.0	0.0	23.818	0.0001	142.56	89.11477942243216
+root_3.sort	project/At_data/output/align/hisat2/root_3.sort.bam	54453416.0	48261958.0	19255559653.0	1586641636.0	0.0	0.0	23.3349	0.0001	160.9073	88.6298079077353
+shoot_1.sort	project/At_data/output/align/hisat2/shoot_1.sort.bam	36794664.0	30603386.0	10991028221.0	962082526.0	0.0	0.0	24.3046	0.0001	91.8455	83.17343514809647
+shoot_2.sort	project/At_data/output/align/hisat2/shoot_2.sort.bam	58290152.0	50513942.0	42948641122.0	1655792097.0	0.0	0.0	23.7003	0.0	358.8964	86.65947894594613
+shoot_3.sort	project/At_data/output/align/hisat2/shoot_3.sort.bam	60718457.0	52454798.0	53630253064.0	1691667082.0	0.0	0.0	24.349	0.0	448.1563	86.39020257052975

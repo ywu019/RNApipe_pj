@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	shoot_1	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/shoot_1_trimmed_fastqc.zip
+FastQC	all_sections	root_1	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/root_1_trimmed_fastqc.zip
+FastQC	all_sections	root_2	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/root_2_trimmed_fastqc.zip
+FastQC	all_sections	shoot_2	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/shoot_2_trimmed_fastqc.zip
+FastQC	all_sections	root_3	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/root_3_trimmed_fastqc.zip
+FastQC	all_sections	shoot_3	/home/zpzhou/wuyue/snakemake/RNApipe/project/At_data/output/trim/fastp/fastqc_after_trimming/shoot_3_trimmed_fastqc.zip
