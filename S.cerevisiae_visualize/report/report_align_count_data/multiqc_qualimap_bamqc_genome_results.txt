@@ -1,0 +1,7 @@
+Sample	bam_file	total_reads	mapped_reads	mapped_bases	sequenced_bases	mean_insert_size	median_insert_size	mean_mapping_quality	general_error_rate	mean_coverage	percentage_aligned
+AMB_1.sort	project/yeast_data/output/align/hisat2/AMB_1.sort.bam	15732846.0	15598584.0	2338116927.0	1566059786.0	365.2861	152.0	45.374	0.0011	192.3251	99.14661339722007
+AMB_2.sort	project/yeast_data/output/align/hisat2/AMB_2.sort.bam	18069038.0	17918545.0	3000029762.0	1791413830.0	361.9796	153.0	45.0463	0.001	246.7717	99.16712223417761
+AMB_3.sort	project/yeast_data/output/align/hisat2/AMB_3.sort.bam	18957964.0	18797106.0	3199951970.0	1883448150.0	367.7877	156.0	43.7992	0.001	263.2166	99.15150171189269
+WT_1.sort	project/yeast_data/output/align/hisat2/WT_1.sort.bam	18043450.0	17886538.0	3174918867.0	1786164904.0	368.0758	147.0	44.3721	0.0009	261.1575	99.1303658668381
+WT_2.sort	project/yeast_data/output/align/hisat2/WT_2.sort.bam	19232014.0	19089430.0	3129206987.0	1919283978.0	364.4735	161.0	44.3957	0.001	257.3974	99.25861118861499
+WT_3.sort	project/yeast_data/output/align/hisat2/WT_3.sort.bam	18735884.0	18586428.0	3362218495.0	1863587570.0	386.4694	159.0	43.229	0.0009	276.5641	99.20230078281868

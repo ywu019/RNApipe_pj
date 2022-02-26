@@ -1,0 +1,7 @@
+Sample	Total	Assigned	Unassigned_Unmapped	Unassigned_Read_Type	Unassigned_Singleton	Unassigned_MappingQuality	Unassigned_Chimera	Unassigned_FragmentLength	Unassigned_Duplicate	Unassigned_MultiMapping	Unassigned_Secondary	Unassigned_NonSplit	Unassigned_NoFeatures	Unassigned_Overlapping_Length	Unassigned_Ambiguity	percent_assigned
+AMB_1.sort	8482600	7159799	31042	0	0	0	0	0	0	953612	0	0	295036	0	43111	84.40571287105368
+AMB_2.sort	9768615	8215801	37845	0	0	0	0	0	0	1122429	0	0	346276	0	46264	84.10405159789796
+AMB_3.sort	10238695	8630719	39252	0	0	0	0	0	0	1170393	0	0	345058	0	53273	84.2951079214685
+WT_1.sort	9711695	8196342	39150	0	0	0	0	0	0	1081051	0	0	348765	0	46387	84.39661665651568
+WT_2.sort	10372431	8788159	31678	0	0	0	0	0	0	1191559	0	0	306728	0	54307	84.72612640180493
+WT_3.sort	10607863	8322489	35562	0	0	0	0	0	0	1888775	0	0	294707	0	66330	78.45584921298475
